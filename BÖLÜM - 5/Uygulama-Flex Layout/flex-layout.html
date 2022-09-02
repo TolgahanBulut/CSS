@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        main {
+            display: flex;
+        }
+        .box {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        .main-right {
+            flex: 25%;
+            order: 1;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        .main-left {
+            flex: 75%;
+        }
+        .title {
+            background-color: goldenrod;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .links{
+            background-color: #2E2D2E;
+            display: flex;
+        }
+
+        .links div {
+            padding: 16px 20px;
+            text-align: center;
+        }
+        a {
+            
+            text-decoration: none;
+            color: #fff;
+        }
+        .links div:hover {
+            background-color: #444;
+        }
+
+        .pictures {
+            background-color: gray;
+        }
+        
+        @media (max-width: 600px){
+            .links,main {
+                flex-direction: column;
+            }
+            .main-right {
+                order:-1 ;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="title">
+
+        <h1>Lorem, ipsum.</h1>
+        <br>
+        <p>Lorem, ipsum dolor.</p>
+
+    </div>
+    <nav class="links">
+            <div><a href="">Link 1</a></div>
+            <div><a href="">Link 2</a></div>
+            <div><a href="">Link 3</a></div>
+            <div><a href="">Link 4</a></div>
+    </nav>
+
+    <main>
+
+        <div class="main-right">
+            <div class="box">
+                <h2>Lorem, ipsum.</h2>
+                <p style="height: 200px" class="pictures"></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, dicta?</p>
+                <p style="height: 50px" class="pictures"></p>
+                <p style="height: 50px" class="pictures"></p>
+                <p style="height: 50px" class="pictures"></p>
+
+            </div>
+        </div>
+
+        <div class="main-left">
+
+            <div class="box">
+                <h2>Lorem, ipsum.</h2>
+                <p style="height: 200px" class="pictures pictures7"></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, commodi?</p>
+
+            </div>
+
+            <div class="box">
+                <h2>Lorem, ipsum.</h2>
+                <p style="height: 200px" class="pictures pictures7"></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, commodi?</p>
+
+            </div>
+
+            <div class="box">
+                <h2>Lorem, ipsum.</h2>
+                <p style="height: 200px" class="pictures pictures7"></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, commodi?</p>
+
+            </div>
+
+            <div class="box">
+                <h2>Lorem, ipsum.</h2>
+                <p style="height: 200px" class="pictures pictures7"></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, commodi?</p>
+
+            </div>
+
+            <div class="box">
+                <h2>Lorem, ipsum.</h2>
+                <p style="height: 200px" class="pictures pictures7"></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, commodi?</p>
+
+            </div>
+
+            <div class="box">
+                <h2>Lorem, ipsum.</h2>
+                <p style="height: 200px" class="pictures pictures7"></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, commodi?</p>
+
+            </div>
+            
+
+            <div class="box">
+                <h2>Lorem, ipsum.</h2>
+                <p style="height: 200px" class="pictures pictures7"></p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, commodi?</p>
+
+            </div>
+            
+        </div>
+
+
+    </main>
+    
+
+    
+</body>
+</html>

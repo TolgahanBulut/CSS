@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #C87060;
+        }
+        .body-main{
+            background-color: #274362;
+            width: 100%;
+            height: 300px;
+            font-size: 20px;
+            font-weight: bolder;
+            color: red;
+        
+        
+        }
+        .header{
+            color: #fff;
+            font-weight: bolder;
+            font-size: 20px;
+            display: inline-block;
+            padding: 6px;
+
+
+        }
+        .header-links {
+
+            width: calc(100% - 106px);
+            text-align: right;
+            display: inline-block;
+            word-spacing: 10px;
+
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+        a::before{
+            content: '\2022';
+            padding: 5px;
+            
+        }
+        
+        #home:hover,#movies:hover,#contact:hover{
+            color: #274362;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header">MovieApp</div>
+            
+        <div class="header-links">
+            <a id="home" href="Home">Home</a>
+            <a  id="movies" href="Movies">Movies</a>
+            <a id="contact" href="Contact">Contact</a>
+        </div>
+    </header>
+    <main>
+        <div class="body-main">Welcome to MovieApp</div>
+    </main>
+    
+    
+    
+    
+</body>
+</html>

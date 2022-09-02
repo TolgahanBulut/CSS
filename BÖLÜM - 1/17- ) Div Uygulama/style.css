@@ -1,0 +1,17 @@
+.container{
+    width: 1140px;
+    background-color: blueviolet;
+}
+#div75{
+    background-color: aquamarine;
+    width: 75%;
+
+}
+#div25{
+    background-color: bisque;
+    width: 25%;
+}
+#foto{
+    width: 100%;
+    
+}

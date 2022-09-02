@@ -1,0 +1,280 @@
+* {
+    box-sizing: border-box;
+}
+html {
+     scroll-behavior: smooth;
+}
+
+.container {
+ margin: 0 auto;
+ width: 1000px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#showcase { 
+    background:linear-gradient(to bottom, rgba(252, 153, 124, 0.2),rgba(250, 81, 30, 0.2)),
+    url('/6-Uygulama-Background/img/bg.jpeg') ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    
+}
+.showcase__div{
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    font-size: 30px;
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(to bottom right, rgba(147, 154, 245, 0.2),rgba(233,174,222,0.1));
+    
+}
+.main-header {
+    background-color: #FC997C;
+    padding: 8px 16px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 5;
+}
+main{
+    margin-top: 63px;
+}
+
+.main-nav {
+    display: inline-block;
+    width: calc(100% - 101px);
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+}
+.main-nav__items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-nav__item {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.main-header__logo {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main-nav__item a:hover, .main-nav__item:hover::before {
+    color: #2E4C6D;
+}      
+
+.main-nav__item:active::before, .main-nav__item a:active {
+    color: #fff;
+}
+
+.main-nav__item::before {
+    content: '\2022';
+    color: #fff;
+}
+
+
+.main-nav__item--login::before {
+    content:none;
+}
+
+#how-it-works { 
+    padding: 10px;
+    text-align: center;
+}
+
+.section--title {
+    color: #3e4555;
+    font-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.row-1 {
+    margin-bottom: 40px;
+}
+
+
+.icon-box h3 {
+    color: #3e4555;
+    font-size: 26px;
+}
+
+.icon-box i {
+    color: #FC997C;
+}
+
+.features__left {
+    background: linear-gradient(to bottom, rgba(252, 153, 124, 0.2),rgba(250, 81, 30, 0.2)),
+     url("/6-Uygulama-Background/img/features.jpeg");
+    background-size: cover;
+    background-position: top center;
+    height: 350px;
+}
+
+.features__right {
+    background-color: #edf5f7;
+    padding: 40px;
+    vertical-align: top;
+}
+
+.features__right h3 {
+    font-size: 30px;
+}
+
+.col-2 {
+    float: left;
+    width: 50%;
+    border-radius: 5px;
+    
+}
+.col-3{
+    float: left;
+    margin: 2px ;
+    text-align: center;
+    padding: 7px 7px;
+    width: 32.93%;
+    border-radius: 5px;
+}
+.plans{
+    
+    margin: 0 auto;
+}
+
+.inner-plan{
+    background-color: #edf5f7;
+    padding: 25px 10px;
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    transition-duration: .6s;
+}
+.inner-plan:hover{
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.5);
+}
+.plan__badge{
+    background-color: #fff;
+    color: #FC997C;
+    border-radius: 5px;
+}
+.plan__recommended{
+    background-color: #2E4C6D;
+    color: #fff;
+    position: relative;
+    top: -30px;
+
+}
+.plan_features{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.plan_features li{
+    padding: 5px 0;
+}
+
+
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#info {
+    background-color: #FC997C;
+    color: #fff;
+    height: 150px;
+}
+
+.btn {
+    text-align: center;
+    padding: 7px 14px;
+    margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    transition-duration: 0.8s;
+}
+.btn-primary{
+    background-color: #FC997C;
+    color: #fff;
+    border: 2px solid #FC997C;
+    padding: 7px 10px;
+    margin-top: 10px;
+}
+.btn-primary:hover{
+    background-color: #fff;
+    color: #FC997C;
+    border: 2px solid #FC997C;
+    padding: 7px 10px;
+    margin-top: 10px;
+}
+.btn-outline-primary{
+    background-color: #fff;
+    color: #FC997C;
+    border: 2px solid #FC997C;
+    padding: 7px 10px;
+    margin-top: 10px;
+}
+.btn-outline-primary:hover{
+    background-color: #FC997C;
+    color: #fff;
+    border: 2px solid #FC997C;
+    padding: 7px 10px;
+    margin-top: 10px;
+}
+
+.btn-secondary{
+    background-color: #2E4C6D;
+    color: #fff;
+    border: 2px solid #2E4C6D;
+}
+.btn-secondary:hover{
+    background-color: #fff;
+    color: #2E4C6D;
+    border: 2px solid #2E4C6D;
+
+}
+.btn-outline-secondary:hover{
+    background-color: #2E4C6D;
+    color: #fff;
+    border: 2px solid #2E4C6D;
+    padding: 7px 10px;
+}
+.btn-outline-secondary{
+    background-color: #fff;
+    color: #2E4C6D;
+    border: 2px solid #2E4C6D;
+    padding: 7px 10px;
+}
+
+#backtotop {
+    color: #2E4C6D;
+    font-size: 48px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    transition: 1s;
+}
+#backtotop:hover{
+    color: #1e3248 ;
+}

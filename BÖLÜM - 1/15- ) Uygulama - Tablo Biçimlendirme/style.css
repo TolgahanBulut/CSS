@@ -1,0 +1,25 @@
+td{
+    border: 1px solid #ddd;
+    padding: 6px;
+}
+
+.mavi{
+    background-color: #2196F3;
+    color: white;
+}
+
+.kirmizi{
+    background-color: #4caf50;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #f1f1f1;
+}
+tr:hover{
+    background-color: #DCDCDC;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
